@@ -11,9 +11,9 @@ public class Main {
 	}
 	
 	public static void startTasks (){
-		Profile testProfile = new Profile("test","Bob","Tim","eatshoe42@gmail.com","2148391571","1 Infinite Loop","apt 1","95014","Cupertino","CA","4242424242424242","01","2026","444");
+		Profile testProfile = new Profile("test","Test","Test","test@gmail.com","2148391571","1 Cool Drive","apt 1","95014","Cupertino","CA","4242424242424242","12","2026","812");
 		for(int i = 0; i <maxTasks; i ++){
-			new Task(Integer.toString(i), settings.getDelay(), testProfile, "0301103","L","footlocker").start();
+			new FootsiteTask(Integer.toString(i), testProfile, "GW4978","08.5","footlocker").start();
 		}
 	}
 
